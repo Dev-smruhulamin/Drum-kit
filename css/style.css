@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body{
+    background-image:url(../images/pexels-lukas-rodriguez-3473085.jpg);
+    background-size: cover;
+
+}
+h2{
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-size: 72px;
+    text-shadow: 0 0.5 black;
+}
+
+.keys{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 1em;
+    align-items: center;
+    min-height: 100vh;
+}
+.key{
+    border: .4rem solid #FD1F4D;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    text-shadow: 0 0.5 black;
+}
+kbd{
+    display: block;
+    font-size: 3rem;
+    width: auto;
+}
+.sound{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
+

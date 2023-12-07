@@ -14,7 +14,7 @@ h2{
     padding: 40px;
     color: white;
     font-size: 72px;
-    text-shadow: 0 0.5 black;
+    text-shadow: 0 0 10px #ffc600;
 }
 
 .keys{
@@ -27,7 +27,7 @@ h2{
     min-height: 100vh;
 }
 .key{
-    border: .4rem solid #FD1F4D;
+    border: .4rem solid black;
     border-radius: .5rem;
     margin: 1rem;
     font-size: 1.5rem;
@@ -35,6 +35,12 @@ h2{
     color: white;
     background-color: rgba(0,0,0,0.4);
     text-shadow: 0 0.5 black;
+    transition: all .07s;
+}
+.playing{
+    transform: scale(1.1);
+    border-color: rgb(142, 226, 16);
+    box-shadow:0 0 10px #00ff00;
 }
 kbd{
     display: block;
